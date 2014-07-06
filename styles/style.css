@@ -1,0 +1,16 @@
+.combo-box > div{
+    border: 3px inset black;
+    width: 120px;
+    text-align: center;
+}
+
+.visible:hover{
+    background-color: lightslategray;
+}
+
+.selected{
+    background-color: aliceblue;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
